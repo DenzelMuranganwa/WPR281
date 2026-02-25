@@ -1,0 +1,44 @@
+# PulseUp Fitness Website
+
+A multi-page fitness website prototype combining a promotional landing page with account, dashboard, goals, and statistics screens. The project demonstrates a responsive front end built with standard web technologies and browser-side interactions.
+
+## Core features
+
+- Multi-page experience for home, about, contact, sign-up, dashboard, goals, and statistics.
+- Shared styling and navigation across the site.
+- Client-side form and account interactions implemented in JavaScript.
+- Fitness-oriented content, progress views, and promotional media references.
+
+## Technology
+
+HTML5 - 
+CSS3 - 
+JavaScript
+
+## Architecture and data flow
+
+There is no server-side application or database in the supplied source. Account-related state is handled in the browser, so the site is a front-end demonstration rather than a production authentication system.
+
+## Requirements
+
+- A modern web browser
+- Python 3 for the optional local static server
+
+## Installation and usage
+
+From PowerShell, enter the folder containing `index.html` and start a local server:
+
+```powershell
+Set-Location -LiteralPath ".\WPR281.2.1\WPR281.2.1\WPR281.2\WPR281"
+python -m http.server 8000
+```
+
+Open [http://localhost:8000](http://localhost:8000) in your browser. Stop the server with `Ctrl+C`.
+
+## Roadmap
+
+- Improve responsive and accessibility behavior across all pages.
+- Replace browser-only account handling with a properly secured service before any real user sign-in.
+- Add form validation and automated browser tests.
+- Document permitted image/video assets and provide optimized alternatives.
+
