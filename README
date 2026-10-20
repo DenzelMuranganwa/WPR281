@@ -28,10 +28,6 @@ There is no server-side application or database in the supplied source. Account-
 
 From PowerShell, enter the folder containing `index.html` and start a local server:
 
-```powershell
-Set-Location -LiteralPath ".\WPR281.2.1\WPR281.2.1\WPR281.2\WPR281"
-python -m http.server 8000
-```
 
 Open [http://localhost:8000](http://localhost:8000) in your browser. Stop the server with `Ctrl+C`.
 
